@@ -9,7 +9,7 @@ export default function Navbar  () {
       <img src={Logo} alt="Logo" className='w-[150px] h-[36px]' />
 
         {/* Link Navigation */}
-      <div className='hidden  md:flex flex-row items-center gap-2'>
+      <div className='hidden  md:flex flex-row items-center lg:gap-6 gap-2'>
       <a href="#" className='nav-navigation text-gray-Gray2'>Home</a>   
       <a href="#" className='nav-navigation text-gray-Gray2'>About</a>   
       <a href="#" className='nav-navigation text-gray-Gray2'>Promotion</a>   
