@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .button {
+        background-color: #8BAC3E;
+        width: 147px;
+        height: 42px;
+        border-radius: 9999px;
+    }
+
+    .nav-text {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        align-items: center;
+        font-style: normal;
+    
+    }
+
+    .nav-navigation {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        font-style: normal;
+
+    }
+
+    .title-hero {
+        font-weight: 500;
+        line-height: 64px;
+        font-style: normal;
+        color: #8BAC3E;
+    }
+
+    .text-hero {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        font-style: normal;
+    }
+}
