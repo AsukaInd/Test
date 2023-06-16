@@ -10,6 +10,16 @@
         border-radius: 9999px;
     }
 
+    .white-button {
+        border-radius: 9999px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 98px;
+        height: 42px;
+        background-color: #f2f2f2;
+    }
+
     .nav-text {
         font-size: 14px;
         font-weight: 500;
@@ -39,5 +49,46 @@
         font-weight: 400;
         line-height: 29px;
         font-style: normal;
+    }
+
+    .text-trending {
+        font-size: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .card-trending-mobile {
+        max-width: 639px;
+        height: 292px;
+       
+    }
+
+    .card-trending-laptop {
+        width: 287.5px;
+        height: 326px;
+       
+    }
+
+
+    .card-image {
+        width: 145px;
+        height: 151,50px;
+    }
+
+    .trending-text-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 50px;
+        color: black;
+    }
+
+    .trending-text-desc {
+        color: #8BAC3E;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
     }
 }

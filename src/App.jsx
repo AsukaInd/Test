@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './assets/Components/Navbar'
 import Hero from './assets/Components/Hero'
+import Trending from './assets/Components/Trending'
 
  export default function App () {
 
@@ -8,6 +9,7 @@ import Hero from './assets/Components/Hero'
     <>
   <Navbar/>
   <Hero/>
+  <Trending/>
   </>
   )
 }
