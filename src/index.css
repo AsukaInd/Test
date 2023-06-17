@@ -51,6 +51,29 @@
         font-style: normal;
     }
 
+    .card-category-mobile {
+        width: 230px;
+        height: 172px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-title-category-mobile {
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .card-count-category-mobile {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+
     .text-trending {
         font-size: normal;
         font-weight: 500;
@@ -90,5 +113,27 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 21px;
+    }
+
+    .title-footer {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .text-footer {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #757575;
+    }
+
+    input::placeholder{
+        font-weight: 600;
+        font-size: 14px;
+        color: black;
+        line-height: 24px;
+        
     }
 }
