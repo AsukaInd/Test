@@ -51,7 +51,7 @@ export default function Trending ()  {
     
     </div>
 
-    <a href="" className='hidden button lg:flex items-center justify-center text-white font-medium text-base leading-[19px]'> ALL Receipt</a>
+    <a href="" className='hidden button lg:flex justify-center items-center text-white font-medium text-base leading-[19px] self-center'> ALL Receipt</a>
 
    </section>
   )
