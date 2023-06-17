@@ -31,7 +31,7 @@ export default function Footer ()  {
     </section>
 
     {/* Footer */}
-    <section className='hidden lg:grid sm:grid-cols-4 gap-4 '>
+    <section className='hidden lg:grid sm:grid-cols-[35%_20%_20%_20%] gap-4 '>
 
         <div className='flex flex-col gap-3 w-full'>
             <div className='flex flex-col items-start px-3 py-3 gap-5'>

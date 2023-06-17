@@ -52,7 +52,7 @@
     }
 
     .card-category-mobile {
-        width: 230px;
+        /* width: 400px; */
         height: 172px;
         display: flex;
         flex-direction: column;
@@ -89,7 +89,7 @@
     }
 
     .card-trending-laptop {
-        width: 287.5px;
+        
         height: 326px;
        
     }
@@ -134,6 +134,13 @@
         font-size: 14px;
         color: black;
         line-height: 24px;
+        
+    }
+
+    .hover-trending-image{
+        background-image: url('./assets/Trending/BG-Hover.png');
+        background-size: 150%;
+        background-position: center;
         
     }
 }
