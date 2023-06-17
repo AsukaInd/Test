@@ -4,7 +4,7 @@ export default function TrendingCard (props)  {
 
   return (
     <div className='card-trending-mobile sm:max-h-screen  lg:card-trending-laptop lg:flex flex-col lg:flex-wrap 
-    px-5 py-5 rounded-lg hover:hover-trending-image bgco' style={{backgroundColor:`${props.bg}`}}>
+    px-5 py-5 rounded-lg hover:hover-trending-image' style={{backgroundColor:`${props.bg}`}}>
     <img src={props.img} alt="" className='card-image'/>
     <div className='flex flex-col gap-1'> 
     <span className='trending-text-title'>Pizza Paperoni</span>
