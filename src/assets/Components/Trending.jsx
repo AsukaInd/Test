@@ -24,14 +24,14 @@ export default function Trending ()  {
     <div className='flex flex-col lg:grid lg:grid-rows-2 lg:grid-cols-4 gap-5'>
 
     
-    <TrendingCard img={Paperoni} bg="#E6F3F5" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#C9C9C9"/>
-    <TrendingCard img={PizzaMeat} bg="#E6F3F5" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#C9C9C9" R5="#C9C9C9"/>
-    <TrendingCard img={DonerKebab} bg="#EAEEFA" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#FF8412"/>
-    <TrendingCard img={SalmonRoll} bg="#F9EEF3" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#C9C9C9"/>
-    <TrendingCard img={CupcakeChoco} bg="#F0FEEB" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#C9C9C9"/>
-    <TrendingCard img={DoughnutMilk} bg="#F3F7D9" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#FF8412"/>
-    <TrendingCard img={DoughnutUnicorn} bg="#F3F7D9" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#C9C9C9"/>
-    <TrendingCard img={KathiKebab} bg="#EAEEFA" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#C9C9C9"/>
+    <TrendingCard img={Paperoni} bg="#E6F3F5" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#C9C9C9" name="Pizza Paperoni" type="Pizza"/>
+    <TrendingCard img={PizzaMeat} bg="#E6F3F5" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#C9C9C9" R5="#C9C9C9" name="Pizza Meat" type="Pizza"/>
+    <TrendingCard img={DonerKebab} bg="#EAEEFA" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#FF8412" name="Doner Kebab" type="Kebab"/>
+    <TrendingCard img={SalmonRoll} bg="#F9EEF3" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#C9C9C9" name="Salmon Roll" type="Salmon"/>
+    <TrendingCard img={CupcakeChoco} bg="#F0FEEB" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#C9C9C9" name="Cupcake Choco" type="Cupcake"/>
+    <TrendingCard img={DoughnutMilk} bg="#F3F7D9" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#FF8412" name="Doughnut Milk" type="Doughnut"/>
+    <TrendingCard img={DoughnutUnicorn} bg="#F3F7D9" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#C9C9C9" name=" Doughnut Unicorn" type="Doughnut"/>
+    <TrendingCard img={KathiKebab} bg="#EAEEFA" R1="#FF8412" R2="#FF8412" R3="#FF8412" R4="#FF8412" R5="#C9C9C9" name="Kathi Kebab" type="Kebab"/>
     {/* <div className='card-trending-mobile sm:max-h-screen sm:px-10 sm:py-7 lg:card-trending-laptop bg-water-1 lg:flex flex-col lg:flex-wrap px-5 py-5 rounded-lg'>
     <img src={Paperoni} alt="" className='card-image'/>
     <span className='trending-text-title'>Pizza Paperoni</span>

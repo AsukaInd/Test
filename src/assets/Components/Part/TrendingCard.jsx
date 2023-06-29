@@ -7,8 +7,8 @@ export default function TrendingCard (props)  {
     px-5 py-5 rounded-lg hover:hover-trending-image' style={{backgroundColor:`${props.bg}`}}>
     <img src={props.img} alt="" className='card-image'/>
     <div className='flex flex-col gap-1'> 
-    <span className='trending-text-title'>Pizza Paperoni</span>
-    <span className='trending-text-desc'>Pizza</span>
+    <span className='trending-text-title'>{props.name}</span>
+    <span className='trending-text-desc'>{props.type}</span>
     </div>
 
     
