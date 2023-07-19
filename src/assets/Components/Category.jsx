@@ -36,7 +36,7 @@ export default function Category() {
       </div>
 
       {/* Product */}
-      <div className='flex flex-row gap-5  overflow-x-hidden w-full snap-x snap-mandatory' ref={Handle}>
+      <div className='flex flex-row gap-5  overflow-x-scroll w-full snap-x snap-mandatory' ref={Handle}>
        
             <CategoryCard title="Cupcake" bg="#F0FEEB" count="22 items" img={Cupcake} />
             <CategoryCard title="Pizza" bg="#E4F2F4" count="25 items" img={Pizza} />
